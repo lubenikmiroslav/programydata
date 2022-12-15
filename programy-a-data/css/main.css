@@ -1,0 +1,21 @@
+body {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+.container{
+ width:  1200px;
+ margin:auto;
+}
+
+.flex-container {
+ display: flex;
+ background-color: rgba(129, 6, 6, 0.781);
+}
+
+.flex-container > div {
+ background-color: #ebe700;
+ margin: 10px;
+ padding: 20px;
+ font-size: 30px;
+ width: 33%;
+}
